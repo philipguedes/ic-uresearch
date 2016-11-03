@@ -2,6 +2,7 @@
 from fractions import gcd
 import io
 import math
+import cryptomath
 
 # Key and alphabet size
 def validateKey(key, num):

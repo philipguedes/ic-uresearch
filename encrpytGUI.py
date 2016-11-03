@@ -17,7 +17,7 @@ class Application(Frame):
 	def create_widgets(self):
 		# Local variable that will help 
 		count_row = 0
-		self.initialInstruction = Label(self, text = "Enter your Plain Text:", font=("Verdana", "12", "bold"))
+		self.initialInstruction = Label(self, text = "Enter your message:", font=("Verdana", "12", "bold"))
 		self.initialInstruction.grid(row = count_row, column = 0, columnspan = 10, sticky = W,pady=10)
 
 		self.resultInstruction = Label(self, text = "Result:", font=("Verdana", "12", "bold"))
